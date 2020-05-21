@@ -26,7 +26,7 @@
 <div class="Profile">
     <div class="Profile-content">
         <div class="Profile-avatar">
-            <img src="../../public/profile.jpg" alt="profile" />
+            <img src="https://raw.githubusercontent.com/eltranseunteurbano/Pugstagram/master/public/profile.jpg" alt="profile" />
         </div>
 
         <div class="Profile-info">
