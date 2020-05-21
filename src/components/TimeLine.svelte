@@ -17,10 +17,8 @@
     <div class="TimeLine-container">
     {#each post as item}
          <Card {...item}/>
-
     {:else}
-
-    {/each}
         <p>Loading...</p>
+    {/each}
     </div>
 </div>
