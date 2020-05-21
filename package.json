@@ -1,11 +1,13 @@
 {
   "name": "pugstagram",
+  "homepage": "https://eltranseunteurbano.github.io/Pugstagram/",
   "version": "1.0.0",
   "description": "Proyecto del curso de svelte",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "Svelte"
@@ -13,6 +15,7 @@
   "author": "Jaime Burbano",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "svelte": "^3.22.3"
   },
   "devDependencies": {
